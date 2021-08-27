@@ -64,7 +64,7 @@ export const InfoContainer = styled.div<{ isLoading: boolean }>`
   padding-bottom: ${sizes(16)};
   width: 100%;
 
-  ${media.small} {
+  ${media.xs} {
     margin-bottom: 64px;
     padding-bottom: 0;
   }
@@ -95,7 +95,7 @@ export const TitleContainer = styled.div`
 
   margin-bottom: ${sizes(4)};
 
-  ${media.small} {
+  ${media.sm} {
     margin-bottom: ${sizes(8)};
   }
 `

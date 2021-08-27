@@ -56,7 +56,7 @@ type ContainerProps = Required<Pick<GridProps, 'gap' | 'maxColumns' | 'minWidth'
 const maxColumnsCss = ({ maxColumns }: ContainerProps) =>
   maxColumns
     ? css`
-        ${media.xlarge} {
+        ${media.xl} {
           grid-template-columns: repeat(${maxColumns}, 1fr);
         }
       `

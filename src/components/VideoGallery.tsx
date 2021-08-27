@@ -132,7 +132,7 @@ const StyledVideoTile = styled(VideoTile)`
   ${AvatarContainer} {
     display: none;
 
-    ${media.medium} {
+    ${media.md} {
       display: block;
     }
   }
